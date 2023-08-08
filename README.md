@@ -25,3 +25,69 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+# Estructura del proyecto
+
+## src/app
+
+Donde se tien archivos principales, tambien dondes se creará las carpetas para el proyecto.
+
+### src/app/app-routing.module.ts
+
+Donde se gestiona el sistema de rutas principales
+
+### src/app/app.module.ts
+
+Donde se tiene gestiona los modulos globales y la importación del sitema de rutas principales.
+
+### Moduls
+
+Los módulos son unidades organizativas que agrupan componentes, servicios y otros recursos relacionados en una aplicación. Ayudan a dividir y estructurar el código de manera lógica y modular, lo que facilita la reutilización y el mantenimiento.
+
+### Layouts
+
+Los layouts son estructuras visuales que definen cómo se organizarán y presentarán los elementos en una interfaz de usuario. Los layouts pueden contener encabezados, pies de página, barras laterales y otras partes de la interfaz.
+
+### Pages
+
+Las páginas son componentes que representan vistas individuales o secciones principales de una aplicación. Cada página generalmente tiene su propio contenido y puede contener uno o más componentes.
+
+### Admin
+
+Se refiere a la parte de la aplicación destinada a la gestión y administración de datos, usuarios y configuraciones. Puede incluir páginas y componentes para administrar contenido y configuraciones internas.
+
+### Auth
+
+La autenticación se refiere al proceso de verificar la identidad de un usuario. En una aplicación, la autenticación generalmente implica el inicio de sesión y la verificación de credenciales para permitir el acceso a ciertas partes o funciones.
+
+### Components
+
+Los componentes son unidades autónomas y reutilizables de la interfaz de usuario. Representan elementos visuales o funcionales en una aplicación y pueden incluir plantillas, lógica y estilos asociados.
+
+### Core
+
+Se refiere a la base fundamental de una aplicación. En Angular, el módulo "core" puede contener servicios compartidos, interceptores de solicitudes HTTP y guards de rutas.
+
+### Interfaces
+
+Una interfaz define una estructura y contrato que debe seguir un objeto. Describe las propiedades y métodos que se esperan en un objeto concreto y se utiliza para establecer tipos en TypeScript.
+
+### Models
+
+Los modelos son representaciones estructuradas de datos utilizadas en una aplicación. Los modelos definen la estructura y los atributos de los objetos que se manipulan en la aplicación, como usuarios, productos, pedidos, etc.
+
+### Services
+
+Los servicios son clases que encapsulan lógica reutilizable y funciones compartidas en una aplicación. Pueden manejar tareas como el acceso a datos, la comunicación con servidores y la lógica de negocio.
+
+### Shared
+
+Hace referencia a componentes, servicios, directivas u otros recursos que son compartidos entre diferentes partes de una aplicación. Estos elementos se pueden reutilizar en varias secciones o módulos.
+
+### Site
+
+Se refiere al sitio web público o la interfaz principal que los usuarios finales ven y utilizan. Puede incluir páginas y componentes que muestran información, productos o servicios a los visitantes del sitio.
+
+### Resolver
+
+Un resolver es una clase que se utiliza para pre-cargar datos antes de que una ruta se active y se cargue su componente correspondiente. Los resolvers son útiles para obtener datos necesarios para mostrar una vista específica y pueden ayudar a evitar problemas de sincronización de datos.
